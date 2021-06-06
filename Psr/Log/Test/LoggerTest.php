@@ -15,7 +15,6 @@ class LoggerTest extends TestCase
     protected function createSubject()
     {
         $mock = $this->getMockBuilder('Psr\Log\Test\TestLogger')
-            ->addMethods(array())
             ->enableProxyingToOriginalMethods()
             ->getMock();
 
